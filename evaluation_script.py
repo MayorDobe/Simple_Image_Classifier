@@ -21,7 +21,7 @@ def main() -> None:
     )
 
     eval_dataset = ImageDataSetTemplate(
-        "../card_classifier/dataset/test", transform=transform
+        "../Simple_Image_Classifier/dataset/test", transform=transform
     )
 
     eval_dataloader = DataLoader(eval_dataset, batch_size=32, shuffle=False)
@@ -35,7 +35,7 @@ def main() -> None:
 
     # Create validation dataset
     valid_dataset = ImageDataSetTemplate(
-        "../card_classifier/dataset/valid", transform=transform
+        "../Simple_Image_Classifier/dataset/valid", transform=transform
     )
     # Create validation loader
     validation_loader = DataLoader(

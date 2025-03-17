@@ -32,7 +32,7 @@ def main() -> None:
 
     # Create train dataset
     train_dataset = ImageDataSetTemplate(
-        "../card_classifier/dataset/train", transform=transform
+        "../Simple_Image_Classifier/dataset/train", transform=transform
     )
     # Create training loader
     training_loader = DataLoader(
@@ -41,7 +41,7 @@ def main() -> None:
 
     # Create validation dataset
     valid_dataset = ImageDataSetTemplate(
-        "../card_classifier/dataset/valid", transform=transform
+        "../Simple_Image_Classifier/dataset/valid", transform=transform
     )
     # Create validation loader
     validation_loader = DataLoader(

@@ -64,6 +64,7 @@ python evaluation_script.py
 * Add functionality to allow command line arguments to be passed.
 * Create a config.json file for easier manipulation of hyper-params
 * Add functionality to allow more than a single model to be trained and saved.
+* Add functionality to display better metrics of our model.
 * learn
 * fail
 * succeed

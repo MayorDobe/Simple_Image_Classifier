@@ -20,7 +20,9 @@ python -m venv /path/to/new/virtual/environment
 source /path/to/new/virtual/enviroment/bin/activate
 ```
 * Install required packages.
+* You may need to install pytorch independently. https://pytorch.org/
 ```bash
+pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu126
 pip install -r requirements.txt
 ```
 
